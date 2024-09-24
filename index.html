@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <H1>Inicio sobre formularios</H1>
+
+      <fieldset>
+
+
+      <legend>Tipos de tags inputs:</legend>
+
+      <label>▶text – quando se deseja digitar letras, números, etc.</label>
+      <br><br><br>
+
+      <label> Nome: </label> <input type=“text” name=“nome”> <br>
+      <label> Sobrenome: </label> <input type=“text” name=“sobrenome”>
+      <br><br>
+
+      <label>▶radio – quando se deseja oferecer opções para escolha única.</label>
+      <br><br>
+      
+      <label> Sexo: </label> <br>
+      <input type="radio" value="Masculino"name="sexo"> Masculino <br>
+      <input type="radio" value="Feminino"name="sexo"> Feminino <br><br><br>
+
+      <label>▶checkbox – múltiplas escolhas.</label><br><br>
+
+      <label>Onde estuda:</label> <br>
+      <input type="checkbox" name="onde_estuda" value="IFRN"> JOAO BLEY <br>
+      <input type="checkbox" name="onde_estuda" value="UFRN"> NESTOR GOMES <br>
+      <input type="checkbox" name="onde_estuda" value="UERN"> MADALENA PISA<br>
+      <input type="checkbox" name="onde_estuda" value="Outro"> Outro...<br>
+      <br>
+      <label>▶Textarea –  Observações.</label><br><br>
+      Observações<br>
+      <textarea name=“observacoes”></textarea><br>
+      <button type=“submit“>Enviar </button><br><br>
+
+
+      <label>▶Select –  Observações.</label><br><br>
+      <select>
+        <option> Nova Cruz </option>
+        <option> Serrinha </option>
+        <option> Montanhas </option>
+        <option> Brejinho</option>
+        <option> Monte Alegre</option>
+        <option> Natal</option>
+        </select>
+        <br><br>
+     
+
+      <label>▶password – campo de senha.</label><br><br>
+      
+      <label> Login: </label>
+      <input type=“text” name=“login”><br>
+      <label> Senha: </label>
+      <input type="password" name=“senha”>
+      <br><br>
+
+      <label>▶button – botão.</label><br><br>
+
+      <button>Enviar</button>
+      <br><br>
+
+      <label>▶submit – botão para envio de dados.</label><br><br>
+      
+      <form action=“processa_dados.html”>
+        
+        <input type="checkbox" name="onde_estuda" value="UFRN"> UFRN <br>
+        <input type="checkbox" name="onde_estuda" value="UERN"> UERN <br>
+        <input type="checkbox" name="onde_estuda" value="Outro"> Outro... <br>
+        <br>
+        <button type=“submit“>Enviar </button><br><br>
+
+      <label>▶reset – limpa todos os campos do formulário.</label><br><br>
+      
+      <button type=“reset“> Limpar </button>
+      <br><br>
+
+    </fieldset>
+
+    </form>
+</body> 
+</html>
